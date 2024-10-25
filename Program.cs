@@ -1,4 +1,4 @@
-using BackendBiblioteca.Repository;
+using BackendBiblioteca.Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

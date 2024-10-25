@@ -1,7 +1,7 @@
 using BackendBiblioteca.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace BackendBiblioteca.Repository
+namespace BackendBiblioteca.Data
 {
     public class ApplicationDbContext : DbContext
     {
@@ -10,10 +10,10 @@ namespace BackendBiblioteca.Repository
 
         }
         public DbSet<User> Users { get; set; }
+        public DbSet<Book> Books { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<User>()
-                .HasData();
+            
         }
     }
 }
