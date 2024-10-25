@@ -1,0 +1,77 @@
+# Build files
+bin/
+obj/
+*.dll
+*.exe
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider-specific files
+.idea/
+*.sln.iml
+
+# Visual Studio Code-specific files
+.vscode/
+.vscode/**/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Entity Framework Migrations
+Migrations/
+
+# ASP.NET Core environment settings
+appsettings.Development.json
+appsettings.Local.json
+appsettings.Production.json
+
+# Logs
+*.log
+logs/
+
+# Database files
+*.mdf
+*.ldf
+*.sqlite
+*.db
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Packages and dependencies
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+.vs/
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+
+# JetBrains Rider
+.idea/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# NFS mounts
+.nfs*
+
+# Backup files
+*.bak
+*.swp
+*.swo
